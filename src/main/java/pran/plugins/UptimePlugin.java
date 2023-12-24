@@ -9,17 +9,13 @@ public class UptimePlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        loadConfig();
-
         System.out.println("Starting Uptime record");
-
         if (getConfig().contains("startTime")) {
             startTime = getConfig().getLong("startTime");
         } else {
             startTime = System.currentTimeMillis();
             getConfig().set("startTime", startTime);
             saveConfig();
-
         }
 
         if (previousLogFileExists()) {
@@ -35,16 +31,6 @@ public class UptimePlugin extends JavaPlugin {
         System.out.println("Writing to Log file");
         long uptime = System.currentTimeMillis() - startTime;
         writeUptimeToLogFile(uptime);
-    }
-
-    private void loadConfig() {
-        // This method is used to create the config file if it doesn't exist
-        if (!new File(getDataFolder(), "config.yml").exists()) {
-            saveDefaultConfig();
-        }
-
-        // Load the configuration
-        reloadConfig();
     }
 
     private boolean previousLogFileExists() {
