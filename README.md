@@ -33,15 +33,16 @@ To view the server uptime, open the `uptime.log` file using a text editor.
 
 Here's the entire config:
 
- `# Hi! welcome to the config file!
-# PLEASE DO NOT TOUCH!
+ `
 config-version: 1
-# Edit how many second should the plugin wait before starting the uptime counter
 start-time-after: 0
+startTime: 1703419893830
 `
 'config-version': This is the version of the config. please DO NOT change this
 
 'start-time-after': Its pretty much how many second should the plugin wait before starting the uptime counter.
+
+'StartTime': This is when the plugin was first ran on your server in millliseconds!
 
 ## License
 
