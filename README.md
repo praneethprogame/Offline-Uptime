@@ -18,27 +18,27 @@ To view the server uptime, open the `uptime.log` file using a text editor.
 
 ## Example
 
-`Server uptime for 23/12/2023 (14:30:45):<br>
+Server uptime for 23/12/2023 (14:30:45):<br>
 
 02 hours<br>
 15 minutes<br>
-23 seconds<br>`
+23 seconds<br>
 
-`Server uptime for 22/12/2023 (20:10:12):<br>
+Server uptime for 22/12/2023 (20:10:12):<br>
       01 hours<br>
      45 minutes<br>
-     37 seconds<br>`
+     37 seconds<br>
 
 
 ## Config
 
 Here's the entire config:
 
- `
+
 config-version: 1<br>
 start-time-after: 0<br>
 startTime: 1703419893830<br>
-`
+
 'config-version': This is the version of the config. please DO NOT change this
 
 'start-time-after': Its pretty much how many second should the plugin wait before starting the uptime counter.
