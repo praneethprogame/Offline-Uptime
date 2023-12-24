@@ -19,15 +19,14 @@ To view the server uptime, open the `uptime.log` file using a text editor.
 ## Example
 
 `Server uptime for 23/12/2023 (14:30:45):
-<br>
 02 hours
 15 minutes
 23 seconds`
 
 `Server uptime for 22/12/2023 (20:10:12):
-01 hours
-45 minutes
-37 seconds`
+      01 hours
+     45 minutes
+     37 seconds`
 
 ## License
 
