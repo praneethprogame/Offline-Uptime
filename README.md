@@ -39,8 +39,9 @@ config-version: 1
 # Edit how many second should the plugin wait before starting the uptime counter
 start-time-after: 0
 `
-`config-version`: This is the version of the config. please DO NOT change this
-`start-time-after`: Its pretty much how many second should the plugin wait before starting the uptime counter.
+'config-version': This is the version of the config. please DO NOT change this
+
+'start-time-after': Its pretty much how many second should the plugin wait before starting the uptime counter.
 
 ## License
 
