@@ -18,15 +18,15 @@ To view the server uptime, open the `uptime.log` file using a text editor.
 
 ## Example
 
-`Server uptime for 23/12/2023 (14:30:45):
-02 hours
-15 minutes
-23 seconds`
+`Server uptime for 23/12/2023 (14:30:45):\
+02 hours\
+15 minutes\
+23 seconds\`
 
-`Server uptime for 22/12/2023 (20:10:12):
-      01 hours
-     45 minutes
-     37 seconds`
+`Server uptime for 22/12/2023 (20:10:12):\
+      01 hours\
+     45 minutes\
+     37 seconds\`
 
 
 ## Config
@@ -34,9 +34,9 @@ To view the server uptime, open the `uptime.log` file using a text editor.
 Here's the entire config:
 
  `
-config-version: 1
-start-time-after: 0
-startTime: 1703419893830
+config-version: 1\
+start-time-after: 0\
+startTime: 1703419893830\
 `
 'config-version': This is the version of the config. please DO NOT change this
 
