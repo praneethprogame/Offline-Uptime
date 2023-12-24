@@ -25,9 +25,9 @@ Server uptime for 23/12/2023 (14:30:45):<br>
 23 seconds<br>
 
 Server uptime for 22/12/2023 (20:10:12):<br>
-      01 hours<br>
-     45 minutes<br>
-     37 seconds<br>
+01 hours<br>
+45 minutes<br>
+37 seconds<br>
 
 
 ## Config
