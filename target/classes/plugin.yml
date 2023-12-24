@@ -1,0 +1,3 @@
+name: OfflineUptimePlugin
+version: 0.2
+main: pran.plugins.UptimePlugin
